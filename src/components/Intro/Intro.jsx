@@ -10,6 +10,7 @@ import boy from "../../img/boy.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
+
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 
 const Intro = () => {
@@ -33,12 +34,18 @@ const Intro = () => {
           </div>
         </div>
         <div className="i-right">
-            <img src={vector1} alt="Vector1" />
-            <img src={vector2} alt="Vector2" />
-            <img src={boy} alt="boy"/>
-            <div>
-                <FloatingDiv/>
-            </div>
+          <img src={vector1} alt="Vector1" />
+          <img src={vector2} alt="Vector2" />
+          <img src={boy} alt="boy" />
+          <img src={glassesimoji} alt=""/>
+          <div style={{top:'-4%',left:'68%'}}>
+            <FloatingDiv image={crown} txt1="Frontend" txt2="Developer" />
+          </div>
+          <div style={{top:'18rem',left:'0rem'}}>
+            <FloatingDiv image={thumbup} txt1="Backend" txt2="Developer" />
+          </div>
+          <div className="i-blur" style={{background:"rgb(238 210 255)"}}></div>
+          <div className="i-blur" style={{background:"#C1F5FF",top:"17rem",width:"22rem",height:"11rem",left:"-9rem"}}></div>
         </div>
       </div>
     </div>
