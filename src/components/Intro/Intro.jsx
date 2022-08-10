@@ -10,7 +10,7 @@ import boy from "../../img/boy.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
-
+import FloatingDiv from "../FloatingDiv/FloatingDiv";
 
 const Intro = () => {
   return (
@@ -32,7 +32,14 @@ const Intro = () => {
             <img src={Instagram} alt="Instagram" />
           </div>
         </div>
-        <div className="i-right">hhhhh</div>
+        <div className="i-right">
+            <img src={vector1} alt="Vector1" />
+            <img src={vector2} alt="Vector2" />
+            <img src={boy} alt="boy"/>
+            <div>
+                <FloatingDiv/>
+            </div>
+        </div>
       </div>
     </div>
   );
