@@ -14,21 +14,39 @@ const Services = () => {
       <div className="s-left">
         <span>My Awesome</span> <span>Services</span>
         <spane>
-          knowledge in web designing and development
+          MongoDB,Express,Node,React,Javascript,HTML,CSS,
           <br />
-          producting the quality work
+          Python,Machine Learning,openCV,DataScience,DeepLearning
         </spane>
         <button className="button s-button">Download CV</button>
         <div className="blur s-blur" style={{ background: "#ABF1FF94" }}></div>
       </div>
       <div className="s-cards">
-        <div style={{left:"14rem"}}>
+        <div style={{ left: "14rem" }}>
           <Cards
             emoji={HeartEmoji}
             Heading={"Design"}
-            Description={"I design the user interface and the user experience"}
+            Description={"Adobe Photoshop,illustrator,XD"}
           />
         </div>
+        <div style={{ top: "12rem", left: "-4rem" }}>
+          <Cards
+            emoji={Glasses}
+            Heading={"Develop"}
+            Description={"MEAN,ORACLE SQL"}
+          />
+        </div>
+        <div style={{ top: "19rem", left: "12rem" }}>
+          <Cards
+            emoji={humble}
+            Heading={"AI"}
+            Description={"DataScience,Machine Learning"}
+          />
+        </div>
+        <div
+          className="blur s-blur1"
+          style={{ background: "var(--purple)" }}
+        ></div>
       </div>
     </div>
   );
