@@ -30,7 +30,7 @@ const Services = () => {
           />
         </div>
         <div style={{ top: "12rem", left: "-4rem" }}>
-          <Cards
+          <Cards    
             emoji={Glasses}
             Heading={"Develop"}
             Description={"MEAN,ORACLE SQL"}

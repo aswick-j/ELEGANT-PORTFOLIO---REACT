@@ -2,13 +2,15 @@ import React from "react";
 
 import "./Navbar.css";
 
+import Toggle from "../Toggle/Toggle";
+
 const Navbar = () => {
   return (
     <div>
       <div className="n-wrapper">
         <div className="n-left">
           <div className="n-name">Aswick</div>
-          <span>togglee</span>
+          <Toggle/>
         </div>
         <div className="n-right">
             <div className="n-list">
